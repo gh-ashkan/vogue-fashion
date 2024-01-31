@@ -1,0 +1,33 @@
+.grid-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    
+}
+.img-lft-tp{
+    width: 100%;
+
+}
+
+.side-img img{
+    width: 52%;
+}
+.img-middle{
+    width: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+.img-middle img{
+    width: 100%;
+}
+
+
+.img-rt-dn{
+    grid-column: 3 / 4 ;
+    
+}
+

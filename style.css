@@ -1,0 +1,450 @@
+body{
+    /* color: #ffffff; */
+    height: 100%;
+    font-size: 20px;
+    font-family: AdobeGaramondPro, serif;
+}
+.fixed{
+    position: fixed;
+}
+.hdr-top{
+    position: relative;
+    border-bottom: 1px solid rgba(170, 170, 170, .5);
+}
+.top-middle{
+    display: flex;
+    justify-content: center;
+    columns: #000000;
+    font-size: 80px;
+
+}
+
+.top-right{
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    right: 2%;
+    top: 40%;
+    font-size: 16px;
+    font-weight: 600;
+
+    
+    
+}
+
+
+.subscribe{
+    display: inline;
+
+}
+.signin{
+    position: relative;
+    display: inline;
+}
+.signin span{
+    position: absolute;
+    top: -3px;
+    left: -7px;
+}
+.pd-right{
+    padding: 0 30px;
+}
+.search{
+    margin-left: 0px;
+    color: #000000;
+}
+
+.hdr-middle{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow:0px 2px  0px 0px rgba(170, 170, 170, .3);
+    height: 50px;
+    width: 100%;
+}
+.hdr-middle ul{
+    position: absolute;
+    top: -9px;
+}
+
+.hdr-middle ul li{
+    padding: 19px 7px;
+    display: inline;
+    /* padding:  7px; */
+    font-size: 16px;
+    font-weight: 600;
+    top: 0;
+    
+}
+.hdr-middle ul li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #000000;
+    
+}
+.advertisment{
+    width: 65%;
+    height: 250px;
+    background-color: bisque;
+    margin: 20px 25% 20px 19%;
+}
+.advertisment-3{
+    width: 60%;
+    height: 250px;
+    background-color: bisque;
+    margin: 5% 25% 5% 19%;
+}
+.hdr-fashion div.h1{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    
+}
+.hdr-middle-2{
+    border-top: 1px solid rgba(170, 170, 170, .3);
+    border-bottom: 1px solid rgba(170, 170, 170, .3);
+
+}
+.hdr-middle-2 ul li{
+    font-size: 14px;
+}
+.subscribe-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    border-top: 1px solid rgba(170, 170, 170, .3);
+    border-bottom: 1px solid rgba(170, 170, 170, .3);
+    height: 100px;
+    position: relative;
+    
+}
+.position{
+    position: absolute;
+    top: 25%;
+    display: inline;
+}
+.img-left{
+    position: absolute;
+    left: -50px;
+    bottom: 10px;
+
+}
+.note{
+    /* display: inline; */
+}
+.button-subscribe button{
+    width: 170px;
+    height: 50px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+
+}
+.pd-right2{
+    padding: 0 10px;
+}
+.img-middle .img{
+    display: flex;
+    justify-content: center;
+}
+.mg-top{
+    margin-top: 60px;
+}
+.note-img{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.note-top{
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+    left: 40%;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.note-middle{
+    width: 100%;
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+    top: 70px;
+    left: 0;
+    font-size: 31px;
+    font-weight: 600;
+    text-align: center;
+    
+}
+.note-down{
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    top: 200px;
+    left: 240px;
+    font-size: 13px;
+
+}
+.note-top:hover{
+    text-decoration: underline;
+}
+.note-middle:hover{
+    text-decoration: underline;
+}
+.img-lft-tp .img img{
+    width: 48%;
+    margin-left: 28%;
+
+}
+.img-lft-tp{
+    position: absolute;
+    top: 0;
+}
+.relative{
+    position: relative;
+}
+.note-top-small{
+    position: absolute;
+    text-align: center;
+    left: 48%;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.note-middle-small{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    top: 40px;
+    left: 27%;
+    font-size: 18px;
+    font-weight: 600;    
+}
+.note-down-small{
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    top: 100px;
+    left: 257px;
+    font-size: 14px;
+    
+}
+.img-lft-dn .img img{
+    width: 48%;
+    margin-left: 28%;
+}
+.img-lft-dn{
+    position: absolute;
+    bottom: 0;
+}
+.img-rt-tp{
+    position: absolute;
+    top: 0; 
+    right: 0;
+}
+.img-rt-tp .img img{
+    width: 48%;
+    margin-left: 24%;
+}
+.img-rt-dn{
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+}
+.img-rt-dn .img img{
+    width: 50%;
+    margin-left: 24%;
+}
+.note-top-small-rt{
+    position: absolute;
+    text-align: center;
+    left: 43%;
+    color: #000000;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 14px;
+}
+.note-middle-small-rt{
+    width: 50%;
+    position: absolute;
+    text-align: center;
+
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    top: 40px;
+    left: 24%;
+    font-size: 18px;
+    font-weight: 600;    
+}
+.note-down-small-rt{
+    position: absolute;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    /* top: 122px; */
+    left: 254px;
+    font-size: 14px;
+    margin-top: 18%;
+    
+    
+}
+.advertisment-2{
+    width: 65%;
+    height: 250px;
+    background-color: bisque;
+    margin: 20% 25% 60px 19%;
+}
+.must-read{
+    background-color: #f8f8f8;
+    width: 100%;
+    min-height: 200px;
+}
+.must-read-in{
+    margin: 0 100px;
+}
+.must-read h2{
+    text-align: center;
+    border-bottom: 1px solid rgba(170, 170, 170, .3);
+    padding: 20px 0;
+    font-size: 19px;
+    font-weight: 200;
+}
+.must-read-left{
+    width: 470px;
+    
+}
+.not-must-read{
+    position: absolute;
+    width: 300px;
+    top: 0;
+    right: 0;
+    font-size: 14px;
+    font-weight: 100;
+}
+.must-read-img{
+    width: 150px;
+    /* height: 50px; */
+    padding-bottom: 10px;
+
+    
+}
+.must-read-left-a{
+    color: #000;
+    text-decoration: none;
+}
+.must-read-left-a h3:hover{
+    text-decoration: underline;
+}
+.not-must-read div span{
+    margin: 0 5px;
+}
+
+
+
+/* Search for proffetional coding in css because this will make you an expert */
+
+
+.must-read-middle{
+    position: absolute;
+    /* display: flex;
+    justify-content: center; */
+    width: 470px;
+    left: 490px;
+    top: 0;
+    
+}
+.must-read-right{
+    position: absolute;
+    /* display: flex;
+    justify-content: center; */
+    width: 470px;
+    right: 0;
+    top: 0;
+}
+
+.street-style{
+    width: 90%;
+    margin:0 5%;
+   
+}
+.mg-tp-300{
+    margin-top: 300px;
+}
+.mg-tp-200{
+    margin-top: 200px;
+}
+.note-header {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid  rgba(170, 170, 170, .3);
+    border-bottom: 1px solid rgba(170, 170, 170, .3);
+}
+.content-street-style{
+    /* margin-top: 20px; */
+}
+.mg-top-20{
+    margin-top: 20px;
+}
+.content-middle-side{
+    position: absolute;
+    left: 25.5%;
+    top: 0;
+}
+.content-middle2-side{
+    position: absolute;
+    right: 25.5%;
+    top: 0;
+}
+.content-right-side{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.content-street-style img{
+    width: 350px;
+}
+.note-content{
+    width: 327px;
+    min-height: 140px;
+    /* font-size: 14px; */
+    margin-top: 10px;
+    font-weight: 400;
+}
+.note-content a{
+    
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+.note-content a span{
+    text-decoration: none;
+}
+.note-hover:hover{
+    text-decoration: underline;
+    
+}
+.authpr-content{
+    position: absolute;
+    bottom: 0;
+}
+.latest-stories{
+    width: 90%;
+    margin: 0 5%;
+}
+
+
+
